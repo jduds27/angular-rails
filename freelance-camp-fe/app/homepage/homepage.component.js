@@ -12,8 +12,8 @@ var HompageComponent = /** @class */ (function () {
     }
     HompageComponent = __decorate([
         core_1.Component({
-            selector: 'main-app',
-            template: '<h1>Freelance Homepage</h1>'
+            selector: 'homepage',
+            template: '<h1>Home</h1>'
         })
     ], HompageComponent);
     return HompageComponent;
