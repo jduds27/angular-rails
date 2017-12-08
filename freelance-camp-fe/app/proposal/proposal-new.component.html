@@ -1,5 +1,13 @@
 <h1>Create a Proposal</h1>
 
 <div>
-  {{proposal.portfolio_url}}
+  <form #proposalForm='ngForm'>
+    <div class="form-group">
+      <label for="customer">Customer Name</label>
+      <input type="text" id="customer" placeholder="E Corp ..." required name="customer" #customer='ngModel' [(ngModel)]="proposal.customer">
+    </div>
+  </form>
+  <div>
+    {{proposal.customer}}
+  </div>
 </div>
