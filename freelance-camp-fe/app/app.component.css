@@ -2,3 +2,35 @@
   margin-top: 35px;
 }
 
+.nav-styles {
+  background-color: #7DAD9F;
+}
+
+.nav-styles a{
+  color: white;
+}
+
+.nav-styles a:hover {
+  color: #FCD367;
+}
+
+.nav-link.active {
+  color: #FE9653 !important;
+}
+
+.dropdown-links a{
+  color: #B2CC97;
+}
+
+.dropdown-links a:hover {
+  color: #FCD367;
+}
+
+.btn-outline-warning {
+  color: white;
+}
+
+.dropdown-item.active {
+  color: #FE9653 !important;
+}
+
