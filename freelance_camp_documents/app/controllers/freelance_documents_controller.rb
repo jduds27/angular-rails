@@ -3,7 +3,7 @@ class FreelanceDocumentsController < ApplicationController
 
   # GET /freelance_documents
   def index
-    @freelance_documents = FreelanceDocument.all
+    @freelance_documents = FreelanceDocument.order('created_at DESC')
 
     render json: @freelance_documents
   end
@@ -39,6 +39,7 @@ class FreelanceDocumentsController < ApplicationController
   end
 
   private
+
     # Use callbacks to share common setup or constraints between actions.
     def set_freelance_document
       @freelance_document = FreelanceDocument.find(params[:id])
